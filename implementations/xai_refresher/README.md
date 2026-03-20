@@ -93,12 +93,23 @@ are not reliably aligned with prediction sensitivity — especially in early lay
 
 ## Package Dependencies
 
-The Concept Grounding notebook requires Java to be installed. On Linux, you can install it using:
+The Concept Grounding notebook requires Java to be installed.
+
+> **On the Coder platform**, Java is already available. You can verify with:
+>
+> ```bash
+> java -version
+> ```
+
+<details>
+<summary>Not on Coder? Install Java manually</summary>
 
 ```bash
 sudo apt update
 sudo apt install -y default-jre
 ```
+
+</details>
 
 ## Resources
 

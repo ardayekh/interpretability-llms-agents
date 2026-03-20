@@ -89,11 +89,21 @@ Two independent environments are required due to package conflicts between the R
 
 ---
 
+> **On the Coder platform**, `ffmpeg` is already available. You can verify with:
+>
+> ```bash
+> ffmpeg -version
+> ```
+
+<details>
+<summary>Not on Coder? Install ffmpeg manually</summary>
+
 ```bash
-# If ffmpeg is not installed, install it for video/audio processing
 sudo apt update
 sudo apt install ffmpeg
 ```
+
+</details>
 
 Both the retrieval (RAG) and QA (inference) pipelines use the same dependency group. From the **root of the repository**:
 
